@@ -102,6 +102,11 @@ button{
     font-family: Montserrat, sans-serif;
     font-size: .830rem;
     font-weight: 600;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: var(--green-700);
 }
 
 button img {
